@@ -1,6 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { nunito } from "../layout";
 import { ChevronDown } from "lucide-react";
+import { Nunito } from "next/font/google";
+
+export const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"], // choose weights you need
+  variable: "--font-nunito", // optional for CSS variable
+});
 
 const HomeSection = () => {
   return (

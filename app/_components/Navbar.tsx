@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href="#products" className="hover:text-gray-500 transition">
           Products
         </a>
-        <a href="#whychooseus" className="hover:text-gray-500 transition">
+        <a href="#why-choose-us" className="hover:text-gray-500 transition">
           Why Choose Us
         </a>
         <a href="#contact" className="hover:text-gray-500 transition">
