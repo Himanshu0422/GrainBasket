@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+// import { MapPin } from "lucide-react";
 import Image from "next/image";
 
 const AboutSection = () => {
@@ -23,10 +23,10 @@ const AboutSection = () => {
           </div>
 
           {/* Location */}
-          <div className="flex items-center gap-2 text-gray-700 pt-6 text-base">
+          {/* <div className="flex items-center gap-2 text-gray-700 pt-6 text-base">
             <MapPin className="w-5 h-5 text-black" />
             <span>Gazipur, Tehsil Naraingarh, Haryana</span>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Images */}
@@ -41,7 +41,7 @@ const AboutSection = () => {
           </div>
           <div className="relative w-1/2 aspect-[4/3] h-64 rounded-lg overflow-hidden self-end">
             <Image
-              src="/image2.jpeg"
+              src="/image3.png"
               alt="Flour with eggs"
               fill
               className="object-cover"

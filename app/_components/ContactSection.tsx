@@ -32,7 +32,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-24 px-6 bg-white" id="contact">
+    <section className="py-24 px-6 bg-gray-50" id="contact">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-gray-900 mb-4">Contact</h2>
@@ -118,13 +118,20 @@ const ContactSection = () => {
             {/* Contact Information */}
             <div className="mt-12 space-y-4 text-gray-700">
               <div className="flex items-center gap-3">
-                <MapPin className="w-5 h-5" />
-                <span>Gazipur, Tehsil Naraingarh, Haryana</span>
+                <a
+                  href="https://maps.app.goo.gl/GArJ5mrLoJy9BbkK8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 mt-3 text-gray-700 hover:underline"
+                >
+                  <MapPin className="w-5 h-5" />
+                  <span>Gazipur, Near Panchkula, Haryana, 134201</span>
+                </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5" />
                 <a href="tel:+916280341384" className="hover:underline">
-                  +91 62803 41384
+                  +91 90233 61450
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -143,7 +150,7 @@ const ContactSection = () => {
           <div className="space-y-6">
             <div className="rounded-lg overflow-hidden">
               <Image
-                src="/image1.jpeg"
+                src="/image4.avif"
                 alt="Flour preparation with traditional methods"
                 className="w-full h-64 object-cover"
                 width={500}
@@ -152,7 +159,7 @@ const ContactSection = () => {
             </div>
             <div className="rounded-lg overflow-hidden">
               <Image
-                src="/image2.jpeg"
+                src="/image5.jpg"
                 alt="Fresh flour with eggs for baking"
                 className="w-full h-64 object-cover"
                 width={500}

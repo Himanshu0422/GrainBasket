@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import { Nunito } from "next/font/google";
@@ -14,7 +15,7 @@ const HomeSection = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/home.jpeg')",
+          backgroundImage: "url('/home.png')",
         }}
       />
       <div className="absolute inset-0 bg-black/40" />
@@ -32,6 +33,9 @@ const HomeSection = () => {
             variant="link"
             size="lg"
             className="bg-transparent border-white text-white transition-colors duration-300 px-8 py-3 text-lg font-medium cursor-pointer"
+            onClick={() => {
+              window.location.href = "#contact";
+            }}
           >
             Contact Us
           </Button>

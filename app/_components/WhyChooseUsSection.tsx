@@ -29,7 +29,7 @@ const features = [
 
 const WhyChooseUsSection = () => {
   return (
-    <section className="py-24 px-6 bg-gray-50" id="why-choose-us">
+    <section className="py-24 px-6 bg-white" id="why-choose-us">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-5xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
         <p className="text-gray-600 text-lg mb-16">
