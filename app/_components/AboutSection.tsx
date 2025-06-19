@@ -30,8 +30,8 @@ const AboutSection = () => {
         </div>
 
         {/* Right Images */}
-        <div className="flex gap-4 h-full">
-          <div className="relative w-1/2 aspect-[4/3] h-64 rounded-lg overflow-hidden">
+        <div className="flex gap-4 h-full max-md:flex-col">
+          <div className="relative md:w-1/2 aspect-[4/3] h-64 rounded-lg overflow-hidden">
             <Image
               src="/image1.jpeg"
               alt="Fresh dough"
@@ -39,9 +39,9 @@ const AboutSection = () => {
               className="object-cover"
             />
           </div>
-          <div className="relative w-1/2 aspect-[4/3] h-64 rounded-lg overflow-hidden self-end">
+          <div className="relative md:w-1/2 w-full aspect-[4/3] h-64 rounded-lg overflow-hidden self-end">
             <Image
-              src="/image3.png"
+              src="/image3.jpg"
               alt="Flour with eggs"
               fill
               className="object-cover"

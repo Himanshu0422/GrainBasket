@@ -18,6 +18,12 @@ const HomeSection = () => {
           backgroundImage: "url('/home.png')",
         }}
       />
+      {/* <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat sm:hidden"
+        style={{
+          backgroundImage: "url('/packet.png')",
+        }}
+      /> */}
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative z-10 flex min-h-screen items-center justify-center px-4">
         <div className="text-center text-white mx-auto">
